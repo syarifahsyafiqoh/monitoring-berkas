@@ -20,7 +20,7 @@
         <!-- Main Card -->
         <div class="detail-main-card">
 
-            <!-- SEKSI 1 : Identitas -->
+            <!-- Identitas -->
             <div class="detail-section-head">
                 <i class="bi bi-file-earmark-text"></i> Identitas Surat
             </div>
@@ -92,7 +92,7 @@
                 </div>
             </div>
 
-            <!-- SEKSI 2 : Uraian -->
+            <!-- Uraian -->
             <div class="detail-section-head">
                 <i class="bi bi-card-text"></i> Uraian Tugas
             </div>
@@ -105,7 +105,7 @@
                 </div>
             </div>
 
-            <!-- SEKSI 3 : Rincian Biaya -->
+            <!-- Rincian Biaya -->
             <div class="detail-section-head">
                 <i class="bi bi-cash-coin"></i> Rincian Biaya
             </div>
@@ -170,7 +170,7 @@
                 </div>
             </div>
 
-        </div><!-- /detail-main-card -->
+        </div>
     </div>
 </div>
 

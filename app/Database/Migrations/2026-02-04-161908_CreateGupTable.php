@@ -23,8 +23,8 @@ class CreateGupTable extends Migration
                 'null'       => true,
             ],
             'operator_id' => [
-                'type'       => 'INT',           // sesuai id di users (INT biasa)
-                'unsigned'   => false,           // tidak pakai unsigned
+                'type'       => 'INT',           
+                'unsigned'   => false,          
             ],
             'created_at' => [
                 'type' => 'DATETIME',
@@ -37,11 +37,7 @@ class CreateGupTable extends Migration
         ]);
 
         $this->forge->addKey('id', true);
-        $this->forge->addKey('operator_id'); // index untuk query cepat
-
-        // Foreign key DIKOMENTAR dulu untuk hindari error tipe data
-        // $this->forge->addForeignKey('operator_id', 'users', 'id', 'CASCADE', 'CASCADE');
-
+        $this->forge->addKey('operator_id'); 
         $this->forge->createTable('gup');
     }
 

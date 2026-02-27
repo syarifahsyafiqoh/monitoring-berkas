@@ -37,25 +37,15 @@ class CreateBerkasTable extends Migration
                 'null' => true,
             ],
             'operator_id' => [
-                'type'       => 'INT',           // ← UBAH JADI INT (sesuai users.id yang INT biasa)
-                'unsigned'   => false,           // ← UBAH JADI false atau hapus baris ini
+                'type'       => 'INT',           
+                'unsigned'   => false,           
             ],
             'created_at' => ['type' => 'DATETIME', 'null' => true],
             'updated_at' => ['type' => 'DATETIME', 'null' => true],
         ]);
 
         $this->forge->addKey('id', true);
-        $this->forge->addKey('operator_id'); // index untuk query cepat
-
-        // Foreign key operator_id → DIKOMENTAR dulu karena users.id adalah INT biasa
-        // $this->forge->addForeignKey('operator_id', 'users', 'id', 'CASCADE', 'CASCADE');
-
-        // Foreign key id_modul → DIKOMENTAR dulu karena tabel perjalanan_dinas belum ada saat migrasi ini jalan
-        // $this->forge->addForeignKey('id_modul', 'perjalanan_dinas', 'id', 'CASCADE', 'CASCADE');
-
-        // Catatan: foreign key ke modul lain (gaji_induk, dll) nanti ditambahkan manual atau di migration terpisah
-        // Supaya migrasi tidak error karena urutan tabel
-
+        $this->forge->addKey('operator_id'); 
         $this->forge->createTable('berkas');
     }
 

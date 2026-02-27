@@ -1,5 +1,3 @@
-// JavaScript untuk Form Input Uang Makan
-
 // Ketika halaman sudah siap
 document.addEventListener('DOMContentLoaded', function() {
     

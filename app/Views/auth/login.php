@@ -15,13 +15,10 @@
     <link href="<?= base_url('assets/css/styles.css') ?>" rel="stylesheet">
     
     <style>
-        /* Override any other styles that might add navbar */
         body {
             padding: 0 !important;
             margin: 0 !important;
         }
-        
-        /* Hide any navbar that might appear */
         nav, .navbar, .sidebar {
             display: none !important;
         }

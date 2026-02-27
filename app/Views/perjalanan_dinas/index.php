@@ -27,38 +27,6 @@
     </div>
 </div>
 
-<!-- Statistics Cards -->
-<!-- <div class="stats-cards-mini">
-    <div class="stat-card-mini stat-primary">
-        <div class="stat-mini-icon">
-            <i class="bi bi-file-earmark-text"></i>
-        </div>
-        <div class="stat-mini-content">
-            <p class="stat-mini-label">Total Perjalanan Dinas</p>
-            <h3 class="stat-mini-value" id="total-pd">0</h3>
-        </div>
-    </div>
-    
-    <div class="stat-card-mini stat-success">
-        <div class="stat-mini-icon">
-            <i class="bi bi-calendar-check"></i>
-        </div>
-        <div class="stat-mini-content">
-            <p class="stat-mini-label">Bulan Ini</p>
-            <h3 class="stat-mini-value" id="bulan-ini">0</h3>
-        </div>
-    </div>
-    
-    <div class="stat-card-mini stat-info">
-        <div class="stat-mini-icon">
-            <i class="bi bi-cash-stack"></i>
-        </div>
-        <div class="stat-mini-content">
-            <p class="stat-mini-label">Total Anggaran</p>
-            <h3 class="stat-mini-value" id="total-anggaran">Rp 0</h3>
-        </div>
-    </div>
-</div> -->
 
 <!-- Data Table Card -->
 <div class="data-table-card">
@@ -69,17 +37,6 @@
                 Daftar Perjalanan Dinas
             </h5>
         </div>
-        <!-- <div class="table-header-right">
-            <div class="filter-group">
-                <select class="form-select form-select-sm filter-select" id="filter-seksi">
-                    <option value="">Semua Seksi</option>
-                    <option value="TU">Seksi TU</option>
-                    <option value="PEVDAS">Seksi PEVDAS</option>
-                    <option value="PKDAS">Seksi PKDAS</option>
-                    <option value="RHL">Seksi RHL</option>
-                </select>
-            </div>
-        </div> -->
     </div>
     
     <div class="table-card-body">
@@ -109,9 +66,7 @@
 <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-<!-- Custom JavaScript -->
 <script>
-    // Set base URL and delete URL for external JS
     const BASE_URL = '<?= base_url() ?>';
     const DATA_URL = '<?= base_url('perjalanan-dinas/data') ?>';
     const DELETE_URL = '<?= base_url('perjalanan-dinas/hapus') ?>';

@@ -5,7 +5,6 @@ use App\Models\UserModel;
 
 class Auth extends BaseController
 {
-    // TAMPILKAN HALAMAN LOGIN
     public function login()
     {
         if (session()->get('logged_in')) {

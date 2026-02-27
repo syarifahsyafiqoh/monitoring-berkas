@@ -13,7 +13,6 @@ class UserManagement extends BaseController
         helper(['form', 'url']);
     }
 
-    // Cek kalau bukan admin → redirect
     protected function adminOnly()
     {
         if (session()->get('role') !== 'admin') {
@@ -90,7 +89,6 @@ class UserManagement extends BaseController
     public function hapus($id)
     {
         $this->adminOnly();
-        // Jangan hapus diri sendiri
         if ($id == session()->get('id')) {
             return $this->response->setJSON(['status' => 'error', 'message' => 'Tidak bisa menghapus akun sendiri!']);
         }

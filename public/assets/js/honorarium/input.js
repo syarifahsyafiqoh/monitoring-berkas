@@ -1,5 +1,3 @@
-// JavaScript untuk Form Input Honorarium
-
 // Ketika halaman sudah siap
 document.addEventListener('DOMContentLoaded', function() {
     

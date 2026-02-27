@@ -1,5 +1,3 @@
-// JavaScript untuk Form Input Tunjangan Kinerja
-
 // Ketika halaman sudah siap
 document.addEventListener('DOMContentLoaded', function() {
     

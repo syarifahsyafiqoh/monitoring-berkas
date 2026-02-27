@@ -96,7 +96,6 @@
             <div class="invalid-feedback">Seksi wajib diisi!</div>
         </div>
 
-        <!-- Tombol -->
         <div class="form-actions">
             <a href="<?= base_url('gaji-induk') ?>" class="btn-cancel">
                 <i class="bi bi-x-circle"></i>

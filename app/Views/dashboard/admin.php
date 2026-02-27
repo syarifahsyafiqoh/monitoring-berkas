@@ -138,7 +138,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
 <script>
-// Fungsi update statistik
+
 function loadStats() {
     fetch('<?= base_url('dashboard/stats') ?>')
         .then(res => res.json())
@@ -154,10 +154,9 @@ function loadStats() {
         });
 }
 
-// Jalankan pertama kali
+
 window.onload = function() {
     loadStats();
-    // Update setiap 30 detik
     setInterval(loadStats, 30000);
 };
 </script>

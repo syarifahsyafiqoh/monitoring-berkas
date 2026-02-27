@@ -139,19 +139,6 @@
             <small class="form-text" id="transport-text">Rp </small>
         </div>
 
-        <!-- Seksi -->
-        <!-- <div class="form-group">
-            <label class="form-label">
-                Seksi <span class="required">*</span>
-            </label>
-            <input type="text" 
-                   name="seksi" 
-                   class="form-control" 
-                   placeholder="Contoh: Seksi Perencanaan / TU / dll"
-                   required>
-            <div class="invalid-feedback">Wajib diisi!</div>
-        </div> -->
-
         <div class="form-group">
             <label class="form-label">
                 Seksi <span class="required">*</span>

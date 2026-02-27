@@ -22,7 +22,6 @@ class PerjalananDinas extends BaseController
 
         // Cek apakah user minta mode cetak (?print=1)
         if ($this->request->getGet('print') === '1') {
-            // Ambil semua data perjalanan dinas (atau filter milik operator ini kalau perlu)
             $perjalanan_dinas = $this->model
                 ->orderBy('created_at', 'DESC')
                 ->findAll();

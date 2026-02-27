@@ -8,10 +8,6 @@
         <h2 class="welcome-title">Selamat Datang Kembali, <span class="username"><?= session()->get('username') ?></span>!</h2>
         <p class="welcome-subtitle">Ringkasan verifikasi berkas hari ini</p>
     </div>
-    <!-- <div class="welcome-date">
-        <i class="bi bi-calendar-check"></i>
-        <span><?= date('d F Y') ?></span>
-    </div> -->
 </div>
 
 <!-- Statistics Cards -->

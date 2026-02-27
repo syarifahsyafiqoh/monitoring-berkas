@@ -16,49 +16,12 @@
         </div>
     </div>
     <div class="page-actions">
-        <!-- <a href="<?= base_url('gaji-induk/export') ?>" class="btn-action btn-export">
-            <i class="bi bi-file-earmark-excel"></i>
-            <span>Export Excel</span>
-        </a> -->
         <a href="<?= base_url('gaji-induk/input') ?>" class="btn-action btn-primary-action">
             <i class="bi bi-plus-circle"></i>
             <span>Input Baru</span>
         </a>
     </div>
 </div>
-
-<!-- Statistics Cards -->
-<!-- <div class="stats-cards-mini">
-    <div class="stat-card-mini stat-primary">
-        <div class="stat-mini-icon">
-            <i class="bi bi-file-earmark-text"></i>
-        </div>
-        <div class="stat-mini-content">
-            <p class="stat-mini-label">Total Data Gaji Induk</p>
-            <h3 class="stat-mini-value" id="total-gaji">0</h3>
-        </div>
-    </div>
-
-    <div class="stat-card-mini stat-success">
-        <div class="stat-mini-icon">
-            <i class="bi bi-cash-stack"></i>
-        </div>
-        <div class="stat-mini-content">
-            <p class="stat-mini-label">Total Bruto</p>
-            <h3 class="stat-mini-value" id="total-bruto">Rp 0</h3>
-        </div>
-    </div>
-
-    <div class="stat-card-mini stat-info">
-        <div class="stat-mini-icon">
-            <i class="bi bi-wallet2"></i>
-        </div>
-        <div class="stat-mini-content">
-            <p class="stat-mini-label">Total Netto</p>
-            <h3 class="stat-mini-value" id="total-netto">Rp 0</h3>
-        </div>
-    </div>
-</div> -->
 
 <!-- Data Table Card -->
 <div class="data-table-card">
@@ -69,16 +32,6 @@
                 Daftar Gaji Induk
             </h5>
         </div>
-        <!-- <div class="table-header-right">
-            <div class="filter-group">
-                <select class="form-select form-select-sm filter-select" id="filter-seksi">
-                    <option value="">Semua Seksi</option>
-                    <option value="TU">Seksi TU</option>
-                    <option value="Program">Seksi Program</option>
-                    <option value="Evaluasi">Seksi Evaluasi</option>
-                </select>
-            </div>
-        </div> -->
     </div>
 
     <div class="table-card-body">

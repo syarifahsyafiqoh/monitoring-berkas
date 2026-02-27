@@ -20,7 +20,7 @@
         <!-- Main Card -->
         <div class="tk-main-card">
 
-            <!-- SEKSI 1 : Informasi Dasar -->
+            <!-- Informasi Dasar -->
             <div class="tk-section-head">
                 <i class="bi bi-file-earmark-text"></i> Informasi Dasar
             </div>
@@ -68,7 +68,7 @@
                 </div>
             </div>
 
-            <!-- SEKSI 2 : Rincian Keuangan -->
+            <!-- Rincian Keuangan -->
             <div class="tk-section-head">
                 <i class="bi bi-cash-coin"></i> Rincian Keuangan
             </div>
@@ -107,7 +107,7 @@
                 </div>
             </div>
 
-        </div><!-- /tk-main-card -->
+        </div>
     </div>
 </div>
 

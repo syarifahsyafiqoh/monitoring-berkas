@@ -1,8 +1,3 @@
-/**
- * SISTEM MONITORING BERKAS - BPDAS BARITO
- * Custom JavaScript Functions
- */
-
 // Auto dismiss alerts after 5 seconds
 document.addEventListener('DOMContentLoaded', function() {
     const alerts = document.querySelectorAll('.alert:not(.alert-permanent)');

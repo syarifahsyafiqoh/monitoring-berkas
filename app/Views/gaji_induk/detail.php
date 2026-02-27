@@ -107,7 +107,7 @@
                 </div>
             </div>
 
-        </div><!-- /gi-main-card -->
+        </div>
     </div>
 </div>
 

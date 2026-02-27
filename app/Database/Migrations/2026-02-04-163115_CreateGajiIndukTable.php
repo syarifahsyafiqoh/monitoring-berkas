@@ -39,8 +39,8 @@ class CreateGajiIndukTable extends Migration
                 'null'       => true,
             ],
             'operator_id' => [
-                'type'       => 'INT',           // ← UBAH JADI INT (sesuai users.id)
-                'unsigned'   => false,           // ← hapus atau set false
+                'type'       => 'INT',           
+                'unsigned'   => false,           
             ],
             'created_at' => [
                 'type' => 'DATETIME',
@@ -53,11 +53,7 @@ class CreateGajiIndukTable extends Migration
         ]);
 
         $this->forge->addKey('id', true);
-        $this->forge->addKey('operator_id'); // index untuk query cepat
-
-        // Foreign key sementara DIKOMENTAR dulu untuk hindari error tipe data
-        // $this->forge->addForeignKey('operator_id', 'users', 'id', 'CASCADE', 'CASCADE');
-
+        $this->forge->addKey('operator_id');
         $this->forge->createTable('gaji_induk');
     }
 

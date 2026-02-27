@@ -56,7 +56,7 @@
         .uraian {
             white-space: pre-wrap;
             word-wrap: break-word;
-            max-width: 220px; /* sesuaikan lebar kolom uraian agar tidak terlalu melebar */
+            max-width: 220px; 
         }
         .right {
             text-align: right;

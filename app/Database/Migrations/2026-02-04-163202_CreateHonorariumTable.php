@@ -35,19 +35,15 @@ class CreateHonorariumTable extends Migration
                 'null'       => true,
             ],
             'operator_id' => [
-                'type'       => 'INT',           // ← sudah benar
-                'unsigned'   => false,           // ← UBAH JADI false atau hapus baris ini
+                'type'       => 'INT',           
+                'unsigned'   => false,           
             ],
             'created_at' => ['type' => 'DATETIME', 'null' => true],
             'updated_at' => ['type' => 'DATETIME', 'null' => true],
         ]);
 
         $this->forge->addKey('id', true);
-        $this->forge->addKey('operator_id'); // index opsional untuk query cepat
-
-        // Foreign key sementara DIKOMENTAR dulu untuk hindari error tipe data
-        // $this->forge->addForeignKey('operator_id', 'users', 'id', 'CASCADE', 'CASCADE');
-
+        $this->forge->addKey('operator_id'); 
         $this->forge->createTable('honorarium');
     }
 

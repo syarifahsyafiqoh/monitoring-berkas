@@ -68,10 +68,6 @@ class CreatePerjalananDinasTable extends Migration
 
         $this->forge->addKey('id', true);
         $this->forge->addKey('operator_id');
-
-        // Foreign key sementara dikomentar
-        // $this->forge->addForeignKey('operator_id', 'users', 'id', 'CASCADE', 'CASCADE');
-
         $this->forge->createTable('perjalanan_dinas');
     }
 

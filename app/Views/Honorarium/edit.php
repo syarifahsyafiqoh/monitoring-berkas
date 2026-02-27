@@ -20,7 +20,7 @@
         <!-- Main Card -->
         <div class="hon-main-card">
 
-            <!-- SEKSI 1 : Informasi Dasar -->
+            <!-- Informasi Dasar -->
             <div class="hon-section-head">
                 <i class="bi bi-file-earmark-text"></i> Informasi Dasar
             </div>
@@ -67,7 +67,7 @@
 
             </div>
 
-            <!-- SEKSI 2 : Rincian Keuangan -->
+            <!-- Rincian Keuangan -->
             <div class="hon-section-head">
                 <i class="bi bi-cash-coin"></i> Rincian Keuangan
             </div>
@@ -111,7 +111,7 @@
                 <?= form_close() ?>
             </div>
 
-        </div><!-- /hon-main-card -->
+        </div>
     </div>
 </div>
 

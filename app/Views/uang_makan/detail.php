@@ -107,7 +107,7 @@
                 </div>
             </div>
 
-        </div><!-- /um-main-card -->
+        </div>
     </div>
 </div>
 

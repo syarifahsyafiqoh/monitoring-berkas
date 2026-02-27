@@ -35,19 +35,15 @@ class CreateUangMakanTable extends Migration
                 'null'       => true,
             ],
             'operator_id' => [
-                'type'       => 'INT',           // sudah benar sesuai users.id
-                'unsigned'   => false,           // sudah benar
+                'type'       => 'INT',           
+                'unsigned'   => false,         
             ],
             'created_at' => ['type' => 'DATETIME', 'null' => true],
             'updated_at' => ['type' => 'DATETIME', 'null' => true],
         ]);
 
         $this->forge->addKey('id', true);
-        $this->forge->addKey('operator_id'); // index opsional untuk performa query
-
-        // Foreign key sementara DIKOMENTAR untuk hindari error tipe data
-        // $this->forge->addForeignKey('operator_id', 'users', 'id', 'CASCADE', 'CASCADE');
-
+        $this->forge->addKey('operator_id');
         $this->forge->createTable('uang_makan');
     }
 

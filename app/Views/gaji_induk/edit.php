@@ -111,7 +111,7 @@
                 <?= form_close() ?>
             </div>
 
-        </div><!-- /gi-main-card -->
+        </div>
     </div>
 </div>
 

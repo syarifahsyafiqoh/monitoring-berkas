@@ -1,5 +1,3 @@
-// JavaScript untuk Form Input Gaji Induk
-
 // Ketika halaman sudah siap
 document.addEventListener('DOMContentLoaded', function() {
     

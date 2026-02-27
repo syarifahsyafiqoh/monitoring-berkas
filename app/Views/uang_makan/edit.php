@@ -111,7 +111,7 @@
                 <?= form_close() ?>
             </div>
 
-        </div><!-- /um-main-card -->
+        </div>
     </div>
 </div>
 

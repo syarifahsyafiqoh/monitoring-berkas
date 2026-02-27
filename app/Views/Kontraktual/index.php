@@ -16,34 +16,18 @@
         </div>
     </div>
     <div class="page-actions">
-        <!-- <a href="<?= base_url('honorarium/export') ?>" class="btn-action btn-export">
-            <i class="bi bi-file-earmark-excel"></i>
-            <span>Export Excel</span>
-        </a> -->
         <a href="<?= base_url('kontraktual/input') ?>" class="btn-action btn-primary-action">
             <i class="bi bi-plus-circle"></i>
             <span>Input Baru</span>
         </a>
     </div>
 </div>
-<!-- 
-<div class="card-header bg-primary text-white d-flex justify-content-between align-items-center py-3">
-        <h4 class="mb-0">
-            <i class="bi bi-cash-coin me-2"></i> Kelola Data Kontraktual
-        </h4>
-        <a href="<?= base_url('kontraktual/input') ?>" class="btn btn-light btn-lg">
-            <i class="bi bi-plus-circle me-2"></i> Input Baru
-        </a>
-    </div><br> -->
 
 <div class="card border-0 shadow">
     <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center py-3">
         <h4 class="mb-0">
             <i class="bi bi-cash-coin me-2"></i> Daftar Kontraktual
         </h4>
-        <!-- <a href="<?= base_url('kontraktual/input') ?>" class="btn btn-light btn-lg">
-            <i class="bi bi-plus-circle me-2"></i> Input Baru
-        </a> -->
     </div>
 
     <div class="card-body p-0">

@@ -1,6 +1,3 @@
-// JavaScript untuk Form Input Perjalanan Dinas
-
-// Ketika halaman sudah siap
 document.addEventListener('DOMContentLoaded', function() {
     
     // Ambil elemen input
