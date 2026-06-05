@@ -18,7 +18,7 @@
         </div>
         <div class="stat-content">
             <p class="stat-label">Menunggu Verifikasi</p>
-            <h2 class="stat-value"><?= number_format($menunggu_verifikasi) ?></h2>
+            <h2 class="stat-value"><?= number_format($menunggu_verifikasi ?? 0) ?></h2>
             <span class="stat-badge badge-warning">Perlu segera diproses</span>
         </div>
     </div>
@@ -29,7 +29,7 @@
         </div>
         <div class="stat-content">
             <p class="stat-label">Diverifikasi Hari Ini</p>
-            <h2 class="stat-value"><?= number_format($diverifikasi_hari_ini) ?></h2>
+            <h2 class="stat-value"><?= number_format($diverifikasi_hari_ini ?? 0) ?></h2>
             <span class="stat-badge badge-success">Sudah selesai</span>
         </div>
     </div>
@@ -40,7 +40,7 @@
         </div>
         <div class="stat-content">
             <p class="stat-label">Ditolak</p>
-            <h2 class="stat-value"><?= number_format($ditolak) ?></h2>
+            <h2 class="stat-value"><?= number_format($ditolak ?? 0) ?></h2>
             <span class="stat-badge badge-danger">Perlu follow up</span>
         </div>
     </div>

@@ -128,7 +128,7 @@
 
 <!-- Charts & Recent Activity -->
 <div class="row g-4 mb-4">
-    <!-- Chart Statistik -->
+    <!-- Charts Statistik -->
     <div class="col-lg-8">
         <div class="card h-100">
             <div class="card-header">
@@ -260,7 +260,7 @@
     </div>
 </div>
 
-<!-- Chart.js Script -->
+<!-- Charts.js Script -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <script>
     // Statistik Chart

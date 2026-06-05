@@ -1,6 +1,8 @@
 <?= $this->extend('layout/sidebar') ?>
 <?= $this->section('content') ?>
 
+<?php $hon = $hon ?? []; ?>
+
 <link href="<?= base_url('assets/css/honorarium/detail-edit.css') ?>" rel="stylesheet">
 
 <div class="row justify-content-center">
@@ -27,7 +29,7 @@
             <div class="hon-card-body">
 
                 <?php helper('form'); ?>
-                <?= form_open('honorarium/update/' . $hon['id'], ['class' => 'needs-validation', 'novalidate' => true]) ?>
+                <?= form_open('honorarium/update/' . ($hon['id'] ?? ''), ['class' => 'needs-validation', 'novalidate' => true]) ?>
 
                 <div class="mb-4">
                     <label class="hon-form-label">
